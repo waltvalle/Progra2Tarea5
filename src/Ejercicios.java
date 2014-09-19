@@ -8,8 +8,8 @@ public class Ejercicios {
 	//Escribe la variable contenido al inicio de un archivo que tiene como nombre nombre_archivo
 	static void escribirString(String nombre_archivo, String contenido)
 	{
-		try
 		//inicio el try
+		try
 		{
 			// se inicializa el escritor de archivos y al archivo creado se le da el nombre de nombre_archivo
 			PrintWriter escritor = new PrintWriter ("nombre_archivo","UTF-8");
@@ -26,8 +26,8 @@ public class Ejercicios {
 	//Escribe la variable contenido al inicio de un archivo que tiene como nombre nombre_archivo
 	static void escribirInt(String nombre_archivo, int contenido)
 	{
-		try
 		//inicio el try
+		try
 		{
 			// se inicializa el escritor de archivos y al archivo creado se le da el nombre de nombre_archivo
 			PrintWriter escritor = new PrintWriter ("nombre_archivo","UTF-8");
@@ -44,8 +44,8 @@ public class Ejercicios {
 	//Devuelve el primer entero contenido en el archivo con nombre nombre_archivo
 	static int leerEntero(String nombre_archivo)
 	{
-		try
 		//se inicia con el try
+		try
 		{
 			// se inicializa un nuevo archivo que recibe el nombre de nombre_archivo
 			File archivo = new File("nombre_archivo");
@@ -68,8 +68,9 @@ public class Ejercicios {
 	//Devuelve la primera string contenida en el archivo con nombre nombre_archivo
 	static String leerString(String nombre_archivo)
 	{
-		try
 		//se incia el try
+		try
+
 		{
 			// se inicializa un nuevo archivo que recibe el nombre de nombre_archivo
 			File archivo = new File("nombre_archivo");
@@ -113,8 +114,8 @@ public class Ejercicios {
 	//Devuelve si el archivo con nombre nombre_archivo contiene la string buscada
 	static boolean existe(String nombre_archivo, String buscada)
 	{
-		try
 		//se incia el try
+		try
 		{
 			// se inicializa un nuevo archivo que recibe el nombre de nombre_archivo
 			File archivo = new File("nombre_archivo");
@@ -137,8 +138,8 @@ public class Ejercicios {
 	//Dado, el archivo unicamente contiene enteros
 	static int getNumeroMenor(String nombre_archivo)
 	{
-		try
 		//se incia el try
+		try
 		{
 			// se inicializa un nuevo archivo que recibe el nombre de nombre_archivo
 			File archivo = new File("nombre_archivo");
